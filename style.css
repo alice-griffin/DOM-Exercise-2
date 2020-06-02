@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #f1f1f1;
+  position: absolute; 
+  border: 1px solid black; 
+  top: 75px; 
+} 
+
+.menu {
+  background: lightgray;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  top: 0;
+} 
+
+.hamburger-btn {
+  background-color: lightgray;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+li {
+  list-style: none; 
+}
+
+a {
+  padding: 10px;
+  line-height: 25px;
+  width: 20%;
+}
+
+.show-links {
+  display: block;
+}
+
+.content {
+  margin-top: 200px;
+}
+
+#shown-letters {
+  display: block;
+  text-align: center;
+}
+
+#shown-numbers {
+  display: none; 
+  text-align: center; 
+}
